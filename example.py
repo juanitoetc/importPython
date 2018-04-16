@@ -22,4 +22,7 @@ else:
 	print("\n")
 	print(cpPerson1)	#using __str__ in the class declaration
 finally:
+	cpPerson1.vchangeAge(5)
+	print(cpPerson1)
 	print("End of the example")
+	

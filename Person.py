@@ -26,5 +26,8 @@ class Person(object):
         #return boolan True or False
         return self.strLastName==other.strLastName and self.strFirstName==other.strFirstName and  self.intAge==other.intAge
 
+    def vchangeAge(self, intNewAge):
+		self.intAge = intNewAge
+
 print("module loaded")			#This is absolutly not necessary and should be removed.
 									#helps to understand that the module will not only laod, but also initilize the module.

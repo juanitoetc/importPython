@@ -24,5 +24,5 @@ else:
 finally:
 	cpPerson1.vchangeAge(5)
 	print(cpPerson1)
-	print("End of the example")
+	print("End of the example.")
 	
